@@ -32,7 +32,9 @@ body {
 
 .titles-set {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 .title {
@@ -43,11 +45,7 @@ body {
     max-width: 346px;
     font-family: 'Saira Condensed';
     box-shadow: 6px 10px 40px 0px;
-}
-
-.t-img {
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+    overflow: hidden;
 }
 
 .content {

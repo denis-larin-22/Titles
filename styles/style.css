@@ -11,7 +11,8 @@ body {
 
 .page-wrap {
     min-height: 100vh;
-    background-color: #E5E5E5;
+    background: rgb(229,233,38);
+    background: linear-gradient(42deg, rgba(229,233,38,1) 0%, rgba(0,115,252,1) 100%);
 }
 
 .container {
@@ -46,6 +47,21 @@ body {
     font-family: 'Saira Condensed';
     box-shadow: 6px 10px 40px 0px;
     overflow: hidden;
+    background-color: white;
+    transition: 0.4s ease;
+}
+
+.title:hover {
+    transform: scale(1.05);
+}
+
+.title:hover .t-img {
+    transform: scale(0.95);
+    border-radius: 12px;
+}
+
+.t-img {
+    transition: 0.4s ease;
 }
 
 .content {
@@ -86,4 +102,5 @@ body {
 }
 .bottom:hover {
     background-color: #ff00008a;
+    transform: scale(0.95);
 }
